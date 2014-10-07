@@ -1,0 +1,68 @@
+.title-character {
+  width:64px;
+  height:64px;
+}
+
+.gap {
+  text-align: center;
+}
+
+.gap-mosou {
+  border-top: 1px solid #ff9900;
+  color:#ff9900;
+}
+
+.gap-extreme {
+  border-top: 1px solid #9900cc;
+  color: #9900cc;
+}
+
+.gap-super {
+  border-top: 1px solid #3366ff;
+  color: #3366ff;
+}
+
+.gap-premium {
+  border-top: 1px solid #33cc00;
+  color: #33cc00;
+}
+
+.gap-normal {
+  border-top: 1px solid #808080;
+  color: #808080;
+}
+
+.wrap-skill {
+  display: inline-block;
+  margin: 4px;
+
+  border: 1px solid gray;
+  border-radius: 4px;
+  max-width: 320px;
+  padding: 4px;
+
+  text-align: left;
+  color: black;
+}
+
+.wrap-skill-icon {
+  float: left;
+  display: inline-block;
+}
+
+.wrap-skill-text {
+  margin: 0px 4px;
+  float: left;
+  display: inline-block;
+  width: 240px;
+}
+
+.skill-icon {
+  width: 48px;
+  height: 48px;
+}
+
+.skill-title {
+  margin: 4px 0px;
+  border-bottom: 1px solid gray;
+}
