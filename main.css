@@ -1,68 +1,56 @@
-.title-character {
-  width:64px;
-  height:64px;
+.level {
+  padding: 8px 0px;
 }
 
-.gap {
-  text-align: center;
+.level-mosou {
+  border-top: 2px solid rgb(240, 173, 78);  
+  background-color: rgba(240, 173, 78, 0.35);
+  background-image: url("asset/watermark-mosou.png");
+  background-position: 100% 0%;
+  background-repeat: no-repeat;
+}
+.level-extreme {
+  border-top: 2px solid rgb(133, 82, 161);  
+  background-color: rgba(133, 82, 161, 0.35);
+  background-image: url("asset/watermark-extreme.png");
+  background-position: 100% 0%;
+  background-repeat: no-repeat;
+}
+.level-super {
+  border-top: 2px solid rgb(88, 94, 170);  
+  background-color: rgba(88, 94, 170, 0.35);
+  background-image: url("asset/watermark-super.png");
+  background-position: 100% 0%;
+  background-repeat: no-repeat;
+}
+.level-premium {
+  border-top: 2px solid rgb(29, 149, 63);  
+  background-color: rgba(29, 149, 63, 0.35);
+  background-image: url("asset/watermark-premium.png");
+  background-position: 100% 0%;
+  background-repeat: no-repeat;
+}
+.level-normal {
+  border-top: 2px solid rgb(192, 192, 192);
+  background-color: rgba(192, 192, 192, 0.35);
+  background-image: url("asset/watermark-normal.png");
+  background-position: 100% 0%;
+  background-repeat: no-repeat;
 }
 
-.gap-mosou {
-  border-top: 1px solid #ff9900;
-  color:#ff9900;
-}
-
-.gap-extreme {
-  border-top: 1px solid #9900cc;
-  color: #9900cc;
-}
-
-.gap-super {
-  border-top: 1px solid #3366ff;
-  color: #3366ff;
-}
-
-.gap-premium {
-  border-top: 1px solid #33cc00;
-  color: #33cc00;
-}
-
-.gap-normal {
-  border-top: 1px solid #808080;
-  color: #808080;
-}
-
-.wrap-skill {
-  display: inline-block;
+.skill {
   margin: 4px;
-
-  border: 1px solid gray;
-  border-radius: 4px;
-  max-width: 320px;
-  padding: 4px;
-
-  text-align: left;
-  color: black;
-}
-
-.wrap-skill-icon {
-  float: left;
-  display: inline-block;
-}
-
-.wrap-skill-text {
-  margin: 0px 4px;
-  float: left;
-  display: inline-block;
-  width: 240px;
+  padding: 0px 4px;
 }
 
 .skill-icon {
-  width: 48px;
-  height: 48px;
+  margin-right: 8px;
+  width: 36px;
+  height: 36px;
 }
 
 .skill-title {
-  margin: 4px 0px;
-  border-bottom: 1px solid gray;
+  margin: 0px;
+  border-bottom: 1px solid #dddddd;
+  padding: 4px 0px;
 }
