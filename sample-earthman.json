@@ -8,7 +8,7 @@
         "icon":"icon-war3/Ability_Hunter_Readiness.png"
     },
     "mosou": [                                              // 评价等级 "mosou"(无双) > "extreme"(超凡) > "super"(卓越) > "premium"(优秀) > "normal"(普通)
-        [                                                   // 对应 bootstrap 的 .row, 每个等级容纳 0-无限 个 .row
+        [                                                   // 对应 bootstrap 的 .row, 每个等级容纳 1-无限 个 .row
             {                                               // 技能, 每个 .row 容纳 0-4 个技能, 每个技能在 md 以上分辨率占三个栅格宽度
                 "title":"Hello, 蓝星人之王" ,                
                 "icon":"icon-war3/Ability_Hunter_Readiness.png" ,
