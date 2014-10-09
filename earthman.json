@@ -10,7 +10,7 @@
     "mosou": [                                              // 评价等级 "mosou"(无双) > "extreme"(超凡) > "super"(卓越) > "premium"(优秀) > "normal"(普通)
         [                                                   // 对应 bootstrap 的 .row, 每个等级容纳 1-无限 个 .row
             {                                               // 技能, 每个 .row 容纳 0-4 个技能, 每个技能在 md 以上分辨率占三个栅格宽度
-                "title":"Hello, 蓝星人之王" ,                
+                "title":"专注 hello 三十年" ,                
                 "icon":"icon-war3/Ability_Hunter_Readiness.png" ,
                 "desc":"使用任意50种语言编写 hello, world." ,
                 "badge":"见多识广" ,                         // 成就, 可选, 某些技能在达成时会获得额外的称号
@@ -31,18 +31,25 @@
     "super": [
         [
             {
-                "title":"Marked" ,
+                "title":"Markdown" ,
                 "icon":"icon.png" ,
                 "desc":"第一次使用&nbsp;<a href='http://cuter44.github.io/hello-git/toarukagakunomarkdown.html'>Markdown</a>&nbsp;撰写文本"
             } ,
             {   
-                "title":"讨厌鬼" ,
+                "title":"git" ,
                 "icon":"icon.png" ,
                 "desc":"发现世界上存在名为&nbsp;<a href='http://cuter44.github.io/hello-git/hello-git-2014'>git</a>&nbsp;的事物"
             }
         ]
     ] ,
     "premium": [
+        [
+            {
+                "title":"终结者" ,
+                "icon":"icon.png",
+                "icon":"第一次使用终端"
+            }
+        ] ,
         [
             {
                 "title":"专注模式" ,
@@ -61,7 +68,7 @@
         ] ,
         [
             {
-                "title":"Hello 蓝星人", 
+                "title":"Hello 蓝星", 
                 "icon":"icon-war3/Ability_Hunter_Readiness.png" ,
                 "desc":"使用任意编程语言编写 Hello, world."
             }
